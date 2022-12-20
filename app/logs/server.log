@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2019-07-23 23:54:59,263 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
 2019-07-23 23:54:59,263 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
 2019-07-23 23:54:59,263 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
@@ -16,3 +17,17 @@
 2019-07-23 23:55:43,603 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=180, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50475)>,) , {}. Вызов из модуля common.utils
 2019-07-23 23:55:43,603 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1563908143.1184947, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsRTnuquv58DmWndbRfKT\nqPifS9QPwGqE9FSciMnoKYtq9auMbOC4kk2MnxTovzLeeyxEzUwMMue84TDathPL\nwUZk33XkfiQjxd8wUE6jbZ9sp9QdRgvCe0hZr8gvYT3XGQ7e/DF5Y1YaAKkPd7ij\nROnbPiMCPlUJPgETNLSqDC6tSPpQRviumnUfR6UvclT99E/xgoc0Lywzb6V26QxC\nl9V7YXe/WF8qK0PvgiNfOBHukCgfVjbiI4RgyOQVhYw1DTK/p4THzj233YwvqTF+\n3GGk7AvZ3uR1eUrExqy2sMM1JVATw89l8ZIM/f4cIxhQxbVyUuvklDdPbEPeuNWd\n+wIDAQAB\n-----END PUBLIC KEY-----'}}
 2019-07-23 23:55:43,605 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=180, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50475)>, {'response': 400, 'error': 'Пользователь не зарегистрирован.'}) , {}. Вызов из модуля common.utils
+=======
+2021-11-01 23:05:50,534 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2021-11-01 23:05:50,544 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2021-11-01 23:05:50,551 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2021-11-01 23:05:50,552 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/Курсы GeekBrains. 2021/Базы данных и PyQT/Урок-6/Урок 6. Пример практического задания/server.py']
+2021-11-01 23:05:50,553 DEBUG server.py Аргументы успешно загружены.
+2021-11-01 23:05:50,669 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2021-11-01 23:07:54,032 DEBUG decos.py Была вызвана функция main c параметрами () , {}. Вызов из модуля __main__
+2021-11-01 23:07:54,035 DEBUG decos.py Была вызвана функция config_load c параметрами () , {}. Вызов из модуля __main__
+2021-11-01 23:07:54,036 DEBUG decos.py Была вызвана функция arg_parser c параметрами ('7777', '') , {}. Вызов из модуля __main__
+2021-11-01 23:07:54,036 DEBUG server.py Инициализация парсера аргументов коммандной строки: ['D:/Курсы GeekBrains. 2021/Базы данных и PyQT/Урок-6/Урок 6. Пример практического задания/server.py']
+2021-11-01 23:07:54,037 DEBUG server.py Аргументы успешно загружены.
+2021-11-01 23:07:54,141 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+>>>>>>> 5f714e38f3b88b0132047e31713a62357126d498
